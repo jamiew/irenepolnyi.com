@@ -5,7 +5,7 @@ task :default => :server
  
 desc 'Build site with Jekyll'
 task :build do
-  jekyll
+  jekyll('--no-auto')
 end
  
 desc 'Start server with --auto'
@@ -15,7 +15,7 @@ end
 
 desc 'Build and deploy'
 task :deploy => :build do
-  sh 'rsync -rtzh --progress --delete _site/ tatey@tatey.com:~/var/www/tatey.com/'
+  sh 'rsync -rtzh --progress --delete _site/ jamiew@txd:~/domains/irenepolnyi.com/web/public/'
 end
 
 def jekyll(opts = '')

@@ -4,8 +4,11 @@ title: Irene Polnyi
 ---
 
 {% for post in paginator.posts %}
-  <div class="post_date">{{ post.date | date_to_string }}</div>
-  <h2>{{ post.title }} <a href="{{ post.url }}" title="[Permalink] {{ post.title }}" style="border: none;">&rarr;</a></h2>
+  <div class="post_date">
+		{{ post.date | date_to_string }}
+		<a href="{{ post.url }}" title="[Permalink] {{ post.title }}" class="permalink" style="border: none;">#</a>
+	</div>
+  <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
 
   {{ post.content }}
 
