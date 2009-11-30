@@ -5,7 +5,7 @@
 $(document).ready(function(){
 
   // Fade-in flashes
-  setTimeout( function(){ $('.flash').fadeIn('slow'); }, 1000 );
+  // setTimeout( function(){ $('.flash').fadeIn('slow'); }, 1000 );
   
   // Load Tweet
   $("#twitter").tweet({

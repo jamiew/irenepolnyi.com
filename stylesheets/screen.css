@@ -23,7 +23,7 @@ a img, a.noborder { border: 0; text-decoration: none }
 .floatLeft { float: left; margin-right: 1em; }
 .floatRight { float: right; margin-left: 1em; }
 
-.flash { display: none; }
+/*.flash { display: none; }*/
 .banner { border: 1px solid #bfb; background: #efe; padding: 1em 3em; width: 25em; font-size: 0.9em; line-height: 1.3em; -moz-border-radius: 20px; -webkit-border-radius: 20px; }
 
 /* Layout */
