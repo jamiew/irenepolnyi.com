@@ -1,9 +1,10 @@
+//
+// irenepolnyi.com javascript
+//
 
-// latest tweet
 $(document).ready(function(){
   
-  console.log("sup from app.js");
-  
+  // Load Tweet
   $("#twitter").tweet({
     username: "ireneface",
     join_text: "auto",
