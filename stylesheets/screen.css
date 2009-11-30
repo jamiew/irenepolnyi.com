@@ -23,7 +23,8 @@ a img, a.noborder { border: 0; text-decoration: none }
 .floatLeft { float: left; margin-right: 1em; }
 .floatRight { float: right; margin-left: 1em; }
 
-.flash, .banner { -moz-border-radius: 20px; border: 1px solid #bfb; background: #efe; padding: 1em 3em; width: 25em; font-size: 0.9em; line-height: 1.3em; }
+.flash { display: none; }
+.banner { border: 1px solid #bfb; background: #efe; padding: 1em 3em; width: 25em; font-size: 0.9em; line-height: 1.3em; -moz-border-radius: 20px; -webkit-border-radius: 20px; }
 
 /* Layout */
 #container { background: #fff; width: 48em; width: 48em; max-width: 90%; padding: 0 0 3em 3em; }
@@ -37,7 +38,8 @@ a img, a.noborder { border: 0; text-decoration: none }
 #content h2 { margin-top: 0.1em; }
 #content a.permalink { color: #e0e0e0; display: inline; }
 
-#sidebar { width: 12em; float: right; text-align: left; padding-left: 2em; border-left: 1px solid #f0f0f0; margin-top: -4em; font-size: 0.9em; }
+#container { position: relative; } /* FIXME MOVEME ... */
+#sidebar { width: 12em; position: absolute; top: 250px; right: 20px; text-align: left; padding-left: 2em; border-left: 1px solid #f0f0f0; font-size: 0.9em; }
 #sidebar h2, #sidebar h3 { font-family:'Georgia','DejaVu Serif','Times','Times New Roman', serif; margin-bottom: 0.1em; }
 #sidebar img { max-width: 10em; } /* was 80% */
 #sidebar img.avatar { border: 2px solid #555; margin: 0; padding: 0; }
