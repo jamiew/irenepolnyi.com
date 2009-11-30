@@ -1,41 +1,80 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
-  <head>
-    <title>{{ page.title }}</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link rel="stylesheet" href="/stylesheets/syntax_highlighting.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="/stylesheets/screen.css" type="text/css" media="all" />
-    <!--[if gte IE 6]>
-      <link rel="stylesheet" href="/stylesheets/screen_ie.css" type="text/css" media="all" />
-    <![endif]-->
-    <link href="http://feeds2.feedburner.com/tatejohnson" rel="alternate" title="Tate Johnson" type="application/atom+xml" />
-    <link href='/images/layout/favicon.ico' rel='shortcut icon' type='image/ico' />
-  </head>
+<head>
+	<title>{{ page.title }}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-  <body>
-    <div id="header">
-      <h1><a href="/">Irene Polnyi <span>{ data me }</span></a></h1>
+	<!-- <link rel="stylesheet" href="/stylesheets/syntax_highlighting.css" type="text/css" media="all" /> -->
+	<link rel="stylesheet" href="/stylesheets/screen.css" type="text/css" media="all" />
+	<!--[if gte IE 6]>
+	  <link rel="stylesheet" href="/stylesheets/screen_ie.css" type="text/css" media="all" />
+	<![endif]-->
+	<link href="http://feeds2.feedburner.com/tatejohnson" rel="alternate" title="Tate Johnson" type="application/atom+xml" />
+	<!-- <link href='/images/layout/favicon.ico' rel='shortcut icon' type='image/ico' /> -->
+</head>
+<body>	
+	<div id="container">
+		<div id="header">
+			
+			<!-- title -->
+      <h1><a href="/"><span>{ data me }</span></a></h1>
 
+			<!-- navigation -->
       <ul id="navigation">
         <li class="first"><a href="/">Blog</a></li>
         <li><a href="/archive.html">Archive</a></li>
         <li class="last"><a href="/about.html">About</a></li>
       </ul>
 
-      <div class="clear_both">
-      </div>
-    </div>
+    </div><!-- /#header -->
 
-    {{ content }}
 
-    <script type="text/javascript">
-      document.write(unescape("%3Cscript src='http://google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-      try {
-        var pageTracker = _gat._getTracker("UA-8340632-1");
-        pageTracker._trackPageview();
-      } catch(err) {}
-    </script>
-  </body>
+		<div id="sidebar">
+			
+			<!-- avatar -->			
+			<h3>Irene Polnyi</h3>
+			<img class="avatar" src="http://images.vimeo.com/11/33/02/113302525/113302525_300.jpg" alt="Irene Polnyi" />
+			
+			<!-- email -->
+			
+			<!-- latest tweet -->
+			
+			<!-- social -->
+			<h3>My other accounts</h3>
+			<ul class="accounts">
+				<li><img src="http://jamiedubs.com/images/services/vimeo q.png" /> <a href="http://vimeo.com/ireneface">Vimeo</a></li>
+				<li><img src="http://jamiedubs.com/images/services/tumblr.png" /> <a href="http://floraflora.tumblr.com">Tumblr</a></li>
+				<li><img src="http://jamiedubs.com/images/services/flickr.png" /> <a href="http://flickr.com/photos/ireneface">Flickr</a></li>
+				<li><img src="http://jamiedubs.com/images/services/twitter.png" /> <a href="http://twitter.com/ireneface">Twitter</a></li>
+				<li><img src="http://jamiedubs.com/images/services/facebook.png" /> <a href="http://facebook.com/ireneface">Facebook</a></li>
+			</ul>
+			
+			<!-- flickr photos -->
+			
+			<!-- ... -->
+			
+		</div><!-- /#sidebar -->
+
+		
+		<div id="content">
+	    {{ content }}
+		</div><!-- /#content -->
+		
+		
+		<div id="footer">
+			
+		</div><!-- /#footer -->
+
+	</div><!-- /#container -->
+
+	<script type="text/javascript">
+	  document.write(unescape("%3Cscript src='http://google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	  try {
+	    var pageTracker = _gat._getTracker("UA-xxxxxxx-x");
+	    pageTracker._trackPageview();
+	  } catch(err) {}
+	</script>
+</body>
 </html>

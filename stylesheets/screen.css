@@ -1,10 +1,20 @@
 /* Layout */
 html, body { margin: 0; padding: 0; }
-html { background: #fff; color: #222; font-family:'Georgia','DejaVu Serif','Times','Times New Roman',serif; font-size: 110%; line-height: 1.8em; }
-body { width: 44em; max-width: 90%; margin: 0 auto; padding-bottom:  3em; }
+html { color: #222; font-family:'Georgia','DejaVu Serif','Times','Times New Roman',serif; font-size: 110%; line-height: 1.8em; }
+body { background: transparent url(http://tramchase.com/images/flora-flowaz-low.jpg) top right repeat; }
+
+#container { background: #fff; width: 48em; width: 48em; max-width: 90%; padding: 0 0 3em 3em; }
+#content { width: 30em; }
+#sidebar { width: 14em; float: right; text-align: left; }
 
 ul { list-style-type:square; }
 div#header { position: relative;margin-bottom: 4em;padding-top: 1em; }
+
+/* Sidebar */
+#sidebar img.avatar { max-width: 12em; border: 2px solid #555; margin: 0; padding: 0; }
+#sidebar h2, #sidebar h3 { font-family:'Georgia','DejaVu Serif','Times','Times New Roman',serif; }
+
+#sidebar ul.accounts { list-style: none; padding: 0 0 0 0.6em; }
 
 /* Helpers */
 .clear, .clearer { clear: both; }
@@ -16,49 +26,44 @@ ul#navigation { margin: 0; padding: 0; list-style-type: none;  }
 ul#navigation li { display: block; float: left; background: #eee;  }
 ul#navigation li.first { padding-left: 1.2em;  }
 ul#navigation li.last { padding-right: 1.2em;  }
-ul#navigation li a { display: block; padding: 0.6em 0.6em; color: #494040; border-bottom: none; font-size: 1.65em; text-decoration: none; text-transform: uppercase; letter-spacing: 0.1em; }
-ul#navigation li a:hover,
-ul#navigation li a:active,
-ul#navigation li a:focus { background: #ffebb4; color: #111;  }
+ul#navigation li a { display: block; padding: 0.4em 0.6em; color: #494040; border-bottom: none; font-size: 1.35em; text-decoration: none; text-transform: uppercase; letter-spacing: 0.05em; }
+ul#navigation li a:hover { background: #e0e0e0; color: #000;  }
 
-div#lime { position: absolute; right: 0; bottom: 0; width: 202px; height: 202px; background: url("/images/layout/lime.png") right top no-repeat;  }
-div#lime:hover { background-position: left bottom;  }
+ul#navigation { display: none; }
 
 /* Typography */
 h2, h3, h4, blockquote,
-.about, div.post_date,
+div.post_date,
 table thead tr th { font-family: 'Helvetica Neue','Helvetica','Arial',sans-serif;  }
 
 code { padding: 0 0.25em; background: #111; font-family: 'monaco',monospace;  }
 
 /* Links */
-a { color: #ffebb4; border-bottom: 1px solid #ffebb4; text-decoration: none; }
-a:hover, a:active, a:focus { color: #111; background: #ffebb4;  }
+a { color: #499040; border-bottom: 1px solid #a9c0a0; text-decoration: none; }
+a:hover { color: #111;  }
 
 /* Headers */
 h1 { margin-bottom: 0.375em; font-size: 5.5em; font-weight: normal;  }
 h1 a { border-bottom: none; text-decoration: none; color: #222;  }
-h1 a:hover, h1 a:focus, h1 a:active { background: transparent; color: #ffebb4;  }
+h1 a:hover, h1 a:focus, h1 a:active { background: transparent; color: #0f0;  }
 h1 a span { position: relative; bottom: 0.5em; padding-left: 0.25em; padding-right: 0.5em; font-size: 0.25em;  }
-h2 { font-size: 2em; font-weight: bold; color: #c6e567; line-height: 1.5em;  }
-h3 { font-size: 1.3em; font-weight: bold; color: #c6e567;  }
+
+h2 { color: #56a557; font-size: 1.5em; font-weight: bold; line-height: 1.5em;  }
+h3 { color: #b6b5b7; font-size: 1.2em; font-weight: normal; font-style: italic;  }
 h4 { text-transform: uppercase;  }
 
 p { letter-spacing: 0.05em;  }
-blockquote, .about { color: #aaa;  }
+blockquote { color: #666;  }
 blockquote { margin: 1.5em 2.5em; padding-left: 1em; border-left: 1px solid #aaa;  }
 .about { padding: 0 0.5em; text-align: center;  }
-blockquote { font-style: italic;  }
-blockquote a, .about a { color: #fff; border: none;  }
-blockquote a:hover,
-blockquote a:focus,
-blockquote a:active,
-.about a:hover,
-.about a:focus,
-.about a:active { background: #fff; color: #222;  }
+
+blockquote { font-style: italic; color: #aaa; }
+blockquote a { color: #999; border: none;  }
+blockquote a:hover, .about a:hover { color: #777;  }
 
 /* Image */
-img { display: block; margin: 0 auto; border: 6px solid #333;  }
+img { }
+a img { border: 0; text-decoration: none; }
 a:hover img { border-color: #c6e567;  }
 img.img_left { float: left; margin-right: 1.5em; margin-bottom: 0.25em;  }
 
