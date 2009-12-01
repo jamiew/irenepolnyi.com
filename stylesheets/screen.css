@@ -39,7 +39,7 @@ a img, a.noborder { border: 0; text-decoration: none }
 #content a.permalink { color: #e0e0e0; display: inline; }
 
 #container { position: relative; } /* FIXME MOVEME ... */
-#sidebar { width: 12em; position: absolute; top: 250px; right: 20px; text-align: left; padding-left: 2em; border-left: 1px solid #f0f0f0; font-size: 0.9em; }
+#sidebar { width: 12em; position: absolute; top: 200px; right: 20px; text-align: left; padding-left: 2em; border-left: 1px solid #f0f0f0; font-size: 0.9em; }
 #sidebar h2, #sidebar h3 { font-family:'Georgia','DejaVu Serif','Times','Times New Roman', serif; margin-bottom: 0.1em; }
 #sidebar img { max-width: 10em; } /* was 80% */
 #sidebar img.avatar { border: 2px solid #555; margin: 0; padding: 0; }
