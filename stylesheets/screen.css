@@ -24,7 +24,7 @@ a img, a.noborder { border: 0; text-decoration: none }
 .floatRight { float: right; margin-left: 1em; }
 
 /*.flash { display: none; }*/
-.banner { border: 1px solid #bfb; background: #efe; padding: 1em 3em; width: 25em; font-size: 0.9em; line-height: 1.3em; -moz-border-radius: 20px; -webkit-border-radius: 20px; }
+.banner { border: 1px solid #bfb; background: #efe; text-align: center; padding: 1em 3em; width: 30em; font-size: 0.9em; line-height: 1.3em; -moz-border-radius: 20px; -webkit-border-radius: 20px; }
 
 /* Layout */
 #container { background: #fff; width: 48em; width: 48em; max-width: 90%; padding: 0 0 3em 3em; }
@@ -34,7 +34,7 @@ a img, a.noborder { border: 0; text-decoration: none }
 #header p.byline { color: #222; font-size: 1.3em; font-style: italic; font-weight: normal; letter-spacing: 0px; border-bottom: 3px solid #000; margin: 0; padding: 0.3em 0 0.1em 0; }
 #header p.bio { font-size: 0.9em; line-height: 1.3em; color: #aaa; padding-right: 15em; }
 
-#content { width: 30em; }
+#content { width: 30em; min-height: 100em; }
 #content h2 { margin-top: 0.1em; }
 #content a.permalink { color: #e0e0e0; display: inline; }
 
@@ -43,9 +43,6 @@ a img, a.noborder { border: 0; text-decoration: none }
 #sidebar h2, #sidebar h3 { font-family:'Georgia','DejaVu Serif','Times','Times New Roman', serif; margin-bottom: 0.1em; }
 #sidebar img { max-width: 10em; } /* was 80% */
 #sidebar img.avatar { border: 2px solid #555; margin: 0; padding: 0; }
-
-
-#sidebar #accounts ul { list-style: none; padding: 0 0 0 0.6em; margin: 0; }
 
 #footer { font-size: 1em; color: #ccc; }
 
@@ -101,20 +98,30 @@ form.center_column { float: left; width: 50%;  }
 form.center_column fieldset { padding: 0; margin: 0; border: none; text-align: center;  }
 div.paginator { margin: 3em 0;  }
 
-/* ... */
-div.post_date { margin: 0; line-height: 0; font-weight: bold; color: #aaa;  }
+/* Post stylings */
+#content h2 {  }
+#content h2 a { display: block; font-size: 0.85em; border: 0; color: #333; background: url(/images/underline.png) -7px 28px no-repeat; }
+div.post_date { display: none; margin: 0; line-height: 0; font-weight: bold; color: #aaa;  }
+
 hr { border: 0; border-top: 1px solid #eee; border-right: none; border-left: none;  }
 hr.post { margin: 3em 0 3.5em 0;  }
 div.clear_both { clear: both;  }
 
 /* Sidebar boxes */
-#twitter { margin-top: 2.5em; margin-bottom: 2.5em; font-size: 0.9em; line-height: 1.5em; background: transparent url(/images/twitter-bird.png) -15px -15px no-repeat; border: 1px solid #f9f9f9; padding: 0.2em 1em; }
+#twitter-logo { position: absolute; margin-top: 1em; }
+#twitter { margin-top: 3.5em; margin-bottom: 2.5em; font-size: 0.9em; line-height: 1.5em; border: 1px solid #f9f9f9; background-color: #fcfcfc; padding: 0.2em 1em; }
 #twitter ul { list-style: none; padding: 0; margin: 0; }
-#twitter a:first-child { margin-left: 60px; }
+#twitter .tweet_first a { margin-left: 55px; border-bottom-style: dotted; }
 
-.flickr { margin: 1em 0 1em 0; padding: 0; min-height: 8em; overflow: hidden; }
-.flickr.mine { margin-top: 2em; } /* bonus for the 1st */
-.flickr img { border: 1px solid #666; }
+/*.flickr { margin: 1em 0 1em 0; padding: 0; min-height: 8em; overflow: hidden; }*/
+/*.flickr.mine { margin-top: 2em; }*/
+#sidebar .images img { border: 1px solid #666; }
+#sidebar .images a { border: 0; }
 
-/*#accounts li,*/ 
-#friendroll li { padding-right: 2em; list-style: none; text-align: right; }
+#sidebar h3 a { border-bottom: 1px dotted #bbb; color: #aaa; }
+#sidebar h3.tumblr-link a { font-size: 92%; }
+
+#accounts, #friendroll { padding-right: 2em; }
+#accounts h3, #friendroll h3 { text-align: right; padding-top: 1em; }
+#accounts ul, #friendroll ul { list-style: none; padding: 0 0 0 0.6em; margin: 0; }
+#accounts li, #friendroll li { list-style: none; text-align: right; }

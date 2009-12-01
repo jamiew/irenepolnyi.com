@@ -25,9 +25,10 @@ $(document).ready(function(){
   $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?id=22038747@N00&lang=en-us&format=json&jsoncallback=?", function(data){    
     $.each(data.items, function(i,item){
       $("<img/>").attr("src", item.media.m).appendTo(".flickr.mine").wrap("<a style='noborder' href='" + item.link + "'></a>");
-      if(i == 3) { return false; }
+      // if(i == 3) { return false; }
+      if(i == 0) { return false; }      
     });
-    cyclify('.flickr.mine');
+    // cyclify('.flickr.mine');
   });  
   
   // photos tagged of Irene
@@ -52,4 +53,13 @@ function cyclify(what){
     fx: 'fade',
     speed: 'slow'
   });  
+}
+
+function renderTumblr(data){
+  var post = data['posts'][0];
+  var img = '<a href="'+post['url-with-slug']+'"><img src="'+post['photo-url-250']+'" /></a>';
+  console.log(img);
+  $(document).ready(function(){
+    $('.tumblr').html(img);
+  });
 }
