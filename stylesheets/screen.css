@@ -58,13 +58,13 @@ blockquote a:hover, .about a:hover { color: #777;  }
 /* Layout */
 #container { background: #fff; width: 48em; width: 48em; max-width: 90%; padding: 0 0 3em 3em; }
 
-#header { width: 40em; margin-bottom: 3em; padding-top: 1em; }
+#header { width: 40em; margin-bottom: 1em; padding-top: 1em; }
 #header h1 { font-size: 3em; border-bottom: 1px solid #000; padding-bottom: 0.5em; margin-bottom: 0; }
 #header p.byline { color: #222; font-size: 1.3em; font-style: italic; font-weight: normal; letter-spacing: 0px; border-bottom: 3px solid #000; margin: 0; padding: 0.3em 0 0.1em 0; }
 #header p.bio { font-size: 0.9em; line-height: 1.3em; color: #aaa; padding-right: 15em; }
 
 #content { width: 33em; min-height: 100em; }
-#content h2 { margin-top: 0.1em; }
+#content h2 { margin-top: 2em; }
 #content a.permalink { color: #e0e0e0; display: inline; }
 #content .post_content { font-size: 0.8em; line-height: 1.5em; }
 #content .post_content img { max-width: 100%; margin-top: 1.5em; } /* Force body images to fill; do all browsers support max-width? TODO: resize imgs manually */
