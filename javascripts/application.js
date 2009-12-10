@@ -13,7 +13,7 @@ $(document).ready(function(){
     join_text: "auto",
     // avatar_size: 32,
     count: 1,
-    auto_join_text_default: "I said,",
+    auto_join_text_default: ":",
     auto_join_text_ed: "I",
     auto_join_text_ing: ": ",
     auto_join_text_reply: "I replied to",
@@ -58,7 +58,6 @@ function cyclify(what){
 function renderTumblr(data){
   var post = data['posts'][0];
   var img = '<a href="'+post['url-with-slug']+'"><img src="'+post['photo-url-250']+'" /></a>';
-  console.log(img);
   $(document).ready(function(){
     $('.tumblr').html(img);
   });

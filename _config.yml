@@ -1,5 +1,5 @@
 ---
 #auto: true
 pygments: true
-paginate: 5
-exclude: ['Rakefile', 'README.markdown']
+paginate: 20
+exclude: ['Rakefile', 'README']

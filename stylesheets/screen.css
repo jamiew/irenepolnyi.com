@@ -23,8 +23,37 @@ a img, a.noborder { border: 0; text-decoration: none }
 .floatLeft { float: left; margin-right: 1em; }
 .floatRight { float: right; margin-left: 1em; }
 
+/* Headers */
+h1 { margin-bottom: 0.375em; font-size: 1.6em; font-weight: normal;  }
+h1 a { border-bottom: none; text-decoration: none; color: #222;  }
+h1 a:hover, h1 a:focus, h1 a:active { background: transparent; color: #0f0;  }
+
+h2 { color: #56a557; font-size: 1.5em; font-weight: bold; line-height: 1.5em;  }
+h3 { color: #b6b5b7; font-size: 1.2em; font-weight: normal; font-style: italic; }
+h4 { text-transform: uppercase;  }
+
+p { letter-spacing: 0.05em;  }
+blockquote { color: #666;  }
+blockquote { margin: 1.5em 2.5em; padding-left: 1em; border-left: 1px solid #aaa;  }
+.about { padding: 0 0.5em; text-align: center;  }
+
+blockquote { font-style: italic; color: #aaa; }
+blockquote a { color: #999; border: none;  }
+blockquote a:hover, .about a:hover { color: #777;  }
+
+
 /*.flash { display: none; }*/
-.banner { border: 1px solid #bfb; background: #efe; text-align: center; padding: 1em 3em; width: 30em; font-size: 0.9em; line-height: 1.3em; -moz-border-radius: 20px; -webkit-border-radius: 20px; }
+.banner { 
+  border: 1px solid #bfb; 
+  background: #efe; 
+  text-align: center; 
+  padding: 1em 3em; 
+  width: 30em; 
+  font-size: 0.9em; 
+  line-height: 1.3em; 
+  -moz-border-radius: 20px; 
+  -webkit-border-radius: 20px; 
+}
 
 /* Layout */
 #container { background: #fff; width: 48em; width: 48em; max-width: 90%; padding: 0 0 3em 3em; }
@@ -34,9 +63,11 @@ a img, a.noborder { border: 0; text-decoration: none }
 #header p.byline { color: #222; font-size: 1.3em; font-style: italic; font-weight: normal; letter-spacing: 0px; border-bottom: 3px solid #000; margin: 0; padding: 0.3em 0 0.1em 0; }
 #header p.bio { font-size: 0.9em; line-height: 1.3em; color: #aaa; padding-right: 15em; }
 
-#content { width: 30em; min-height: 100em; }
+#content { width: 33em; min-height: 100em; }
 #content h2 { margin-top: 0.1em; }
 #content a.permalink { color: #e0e0e0; display: inline; }
+#content .post_content { font-size: 0.8em; line-height: 1.5em; }
+#content .post_content img { max-width: 100%; margin-top: 1.5em; } /* Force body images to fill; do all browsers support max-width? TODO: resize imgs manually */
 
 #container { position: relative; } /* FIXME MOVEME ... */
 #sidebar { width: 12em; position: absolute; top: 200px; right: 20px; text-align: left; padding-left: 2em; border-left: 1px solid #f0f0f0; font-size: 0.9em; }
@@ -55,25 +86,6 @@ ul#navigation li a { display: block; padding: 0.4em 0.6em; color: #494040; borde
 ul#navigation li a:hover { background: #e0e0e0; color: #000;  }
 
 ul#navigation { display: none; }
-
-/* Headers */
-h1 { margin-bottom: 0.375em; font-size: 1.6em; font-weight: normal;  }
-h1 a { border-bottom: none; text-decoration: none; color: #222;  }
-h1 a:hover, h1 a:focus, h1 a:active { background: transparent; color: #0f0;  }
-/*h1 a span { position: relative; bottom: 0.5em; padding-left: 0.25em; padding-right: 0.5em; font-size: 0.25em;  }*/
-
-h2 { color: #56a557; font-size: 1.5em; font-weight: bold; line-height: 1.5em;  }
-h3 { color: #b6b5b7; font-size: 1.2em; font-weight: normal; font-style: italic; }
-h4 { text-transform: uppercase;  }
-
-p { letter-spacing: 0.05em;  }
-blockquote { color: #666;  }
-blockquote { margin: 1.5em 2.5em; padding-left: 1em; border-left: 1px solid #aaa;  }
-.about { padding: 0 0.5em; text-align: center;  }
-
-blockquote { font-style: italic; color: #aaa; }
-blockquote a { color: #999; border: none;  }
-blockquote a:hover, .about a:hover { color: #777;  }
 
 /* Image */
 img.img_left { float: left; margin-right: 1.5em; margin-bottom: 0.25em;  }
@@ -111,7 +123,8 @@ div.clear_both { clear: both;  }
 #twitter-logo { position: absolute; margin-top: 1em; }
 #twitter { margin-top: 3.5em; margin-bottom: 2.5em; font-size: 0.9em; line-height: 1.5em; border: 1px solid #f9f9f9; background-color: #fcfcfc; padding: 0.2em 1em; }
 #twitter ul { list-style: none; padding: 0; margin: 0; }
-#twitter .tweet_first a { margin-left: 55px; border-bottom-style: dotted; }
+#twitter .tweet_first a:first-child { margin-left: 55px; border-bottom-style: dotted;}
+#twitter .tweet_first .tweet_text a { margin: 0; }
 
 /*.flickr { margin: 1em 0 1em 0; padding: 0; min-height: 8em; overflow: hidden; }*/
 /*.flickr.mine { margin-top: 2em; }*/

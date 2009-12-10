@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Irene Polnyi
+title: Irene Polnyi: A Quantitative Self-Portrait
 ---
 
 {% for post in paginator.posts %}
@@ -9,11 +9,12 @@ title: Irene Polnyi
 		<a href="{{ post.url }}" title="[Permalink] {{ post.title }}" class="permalink" style="border: none;">#</a>
 	</div>
   <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-
-  {{ post.content }}
+	<div class="post_content">
+	  {{ post.content }}
+	</div>
 
   {% if post != paginator.posts.last %}
-    <hr class="post" />
+    <!-- <hr class="post" /> -->
   {% endif %}
 {% endfor %}
 
