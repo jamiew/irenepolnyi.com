@@ -13,6 +13,10 @@ $(document).ready(function(){
     count: 1,    
     join_text: "auto",
     // avatar_size: 32,
+    auto_join_text_ed: "",
+    auto_join_text_ing: ": ",
+    auto_join_text_reply: "Replied to",
+    auto_join_text_url: "Checking out",
     auto_join_text_default: ":",
     loading_text: "Loading..."
   });
