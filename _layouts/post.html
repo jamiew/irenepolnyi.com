@@ -11,7 +11,7 @@ layout: default
 
 <div class="paginator">
   <hr/>
-  
+
   <div class="left_column">
     {% if page.previous %}
       <a href="{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a>
@@ -23,11 +23,9 @@ layout: default
       <a href="{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a>
     {% endif %}
   </div>
-  
+
   <div class="clear_both">
   </div>
-  
+
   <hr/>
 </div>
-
-{% include about.html %}
