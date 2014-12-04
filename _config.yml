@@ -1,5 +1,4 @@
 ---
 #auto: true
-pygments: true
 paginate: 20
 exclude: ['Rakefile', 'README']
