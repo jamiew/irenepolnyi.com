@@ -1,6 +1,6 @@
 ---
 title: Animal Preferences
-date: 2009-11-05 00:00:00 Z
+date: 2009-11-04 19:00:00 -05:00
 layout: post
 ---
 

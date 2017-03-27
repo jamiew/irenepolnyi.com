@@ -1,6 +1,6 @@
 ---
 title: Sport Preferences
-date: 2009-11-10 00:00:00 Z
+date: 2009-11-09 19:00:00 -05:00
 layout: post
 ---
 

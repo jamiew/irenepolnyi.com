@@ -1,6 +1,6 @@
 ---
 title: What I Think About
-date: 2009-12-05 00:00:00 Z
+date: 2009-12-04 19:00:00 -05:00
 layout: post
 ---
 
