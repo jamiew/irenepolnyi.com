@@ -1,4 +1,14 @@
 ---
-#auto: true
+title: Irenepolnyi.Com
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 paginate: 20
-exclude: ['Rakefile', 'README']
+exclude:
+- Rakefile
+- README
