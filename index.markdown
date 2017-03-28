@@ -1,5 +1,5 @@
 ---
-title: Irene Polnyi – A Quantitative Self-Portrait
+title: Irene Polnyi - A Quantitative Self-Portrait
 layout: default
 ---
 
