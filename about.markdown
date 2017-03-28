@@ -8,7 +8,7 @@ layout: default
 <p>
 	<a href="http://TODO"><img class="img_left" src="http://images.vimeo.com/11/33/02/113302525/113302525_300.jpg" alt="Irene Polnyi" /></a>
 	
-	Hi! I am a 24 years old, etc.
+	Hi!
 	
 <p>
 	Email: <script type="text/javascript">document.write('<a href="mailto:irenepolnyi@gmail.com">irenepolnyi@gmail.com</a>');</script>
