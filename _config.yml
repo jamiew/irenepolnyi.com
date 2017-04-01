@@ -12,4 +12,5 @@ paginate: 20
 exclude:
 - Rakefile
 - README
-gems: [jekyll-paginate]
+gems:
+- jekyll-paginate
