@@ -1,5 +1,5 @@
 ---
-title: home page
+title: hi
 date: 2017-05-23 14:45:00 -04:00
 ---
 
