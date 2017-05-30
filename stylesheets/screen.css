@@ -4,7 +4,7 @@
 
 /* General */
 html, body { margin: 0; padding: 0; }
-html { color: #222; font-family:'Georgia','DejaVu Serif','Times','Times New Roman',serif; font-size: 110%; line-height: 1.8em; }
+html { color: #222; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif; font-size: 110%; line-height: 1.8em; }
 body { background: transparent url(http://tramchase.com/images/flora-flowaz-low.jpg) top right repeat; }
 
 a { color: #499040; border-bottom: 1px solid #a9c0a0; text-decoration: none; }
