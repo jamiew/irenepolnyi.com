@@ -43,16 +43,16 @@ blockquote a:hover, .about a:hover { color: #777;  }
 
 
 /*.flash { display: none; }*/
-.banner { 
-  border: 1px solid #bfb; 
-  background: #efe; 
-  text-align: center; 
-  padding: 1em 3em; 
-  width: 30em; 
-  font-size: 0.9em; 
-  line-height: 1.3em; 
-  -moz-border-radius: 20px; 
-  -webkit-border-radius: 20px; 
+.banner {
+  border: 1px solid #bfb;
+  background: #efe;
+  text-align: center;
+  padding: 1em 3em;
+  width: 30em;
+  font-size: 0.9em;
+  line-height: 1.3em;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
 }
 
 /* Layout */
