@@ -1,5 +1,5 @@
 ---
-title: Irene Polnyi - List of posts
+title: Irene Polnyi - About
 layout: default
 ---
 
