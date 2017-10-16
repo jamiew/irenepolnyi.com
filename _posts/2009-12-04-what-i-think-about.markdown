@@ -1,7 +1,6 @@
 ---
 title: What I Think About
 date: 2009-12-04 19:00:00 -05:00
-published: false
 layout: post
 ---
 
