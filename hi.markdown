@@ -90,3 +90,5 @@ Tactical & Executional skills
   
 
 * Recruiting & coaching
+
+Thanks!
