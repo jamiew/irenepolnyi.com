@@ -14,3 +14,4 @@ exclude:
 - README
 gems:
 - jekyll-paginate
+- jekyll-default-layout
