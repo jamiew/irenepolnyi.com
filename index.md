@@ -7,7 +7,7 @@ I've been collecting and refining skills to help businesses succeed, reconnect t
 
 I want to take the skills built through work for blue chip clients and apply them to a budding company that ignites my passion and fuels my ambition for building a better world.
 
-Right now I'm contracting with companies to help them understand new market opportunities, define their product offer, make it relevant to customers and business-viable. If this is you, [Email me.](irenepolnyi@gmail.com) for my resume and availability.
+Right now I'm contracting with companies to help them understand new market opportunities, define their product offer, make it relevant to customers and business-viable. If this is you, [email me](irenepolnyi@gmail.com) for my resume and availability.
 
 For full time work, I bring this skillset:
 
