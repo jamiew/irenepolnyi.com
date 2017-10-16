@@ -16,77 +16,35 @@ For full time work, I bring this skillset:
 Helping businesses succeed
 
 * Brand positioning
-
-
 * Brand portfolio & architecture
-
-
 * Go-to-market strategy
-
-
 * Business model innovation
-
-
 * Customer experience design
-
-
 * Product & service design
-
-
 * Product value proposition
 
 Reconnecting brands to what matters
 
 * Customer segmentation & targeting
-
-
 * Customer research & insights
-
-
 * Customer needs identification
-
-
 * Brand purpose, vision & mission
 
 Managing internal change
 
 * Strategy activation & road mapping
-
-
 * Cross functional workshop facilitation
-
-
 * Marketing competency-building
-
-
 * Employee branding & value propositions
 
 Tactical & Executional skills
 
 * Project management
-
-
 * Agile concept prototyping
-
-
 * Lo-fi displayed thinking
-
-
 * Verbal and written communications
-
-
 * Client presentation & Storytelling
-
-
 * Timely, data-driven decision making
-
-
 * Consensus-building and alignment
-
-
 * Building and developing teams
-
-
 * Recruiting & coaching
-
-Thanks!
