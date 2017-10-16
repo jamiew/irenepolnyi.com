@@ -8,10 +8,8 @@ collections:
   uploads:
     title: Uploads
     output: true
-paginate: 20
 exclude:
 - Rakefile
 - README
 gems:
-- jekyll-paginate
 - jekyll-default-layout
