@@ -1,7 +1,6 @@
 ---
 title: Height Over Time
-date: 2009-10-19 21:00:00 -04:00
-published: false
+date: 2009-10-19 22:00:00 -04:00
 layout: post
 ---
 
