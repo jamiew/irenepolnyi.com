@@ -9,6 +9,9 @@ collections:
     title: Uploads
     output: true
 exclude:
+- CNAME
+- Gemfile
+- Gemfile.lock
 - Rakefile
 - README
 gems:
