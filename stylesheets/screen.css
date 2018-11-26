@@ -5,7 +5,7 @@
 /* General */
 html, body { margin: 0; padding: 0; }
 html { color: #222; font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif; font-size: 110%; line-height: 1.8em; }
-body { background: transparent url(http://tramchase.com/images/flora-flowaz-low.jpg) top right repeat; }
+body {  }
 
 a { color: #499040; border-bottom: 1px solid #a9c0a0; text-decoration: none; }
 a:hover { color: #111;  }
@@ -42,21 +42,23 @@ blockquote a { color: #999; border: none;  }
 blockquote a:hover, .about a:hover { color: #777;  }
 
 
-/*.flash { display: none; }*/
-.banner {
-  border: 1px solid #bfb;
-  background: #efe;
-  text-align: center;
-  padding: 1em 3em;
-  width: 30em;
-  font-size: 0.9em;
-  line-height: 1.3em;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
+/* Layout */
+#container { background: #fff; padding: 0 0 1em 1em; }
+
+@media only screen and (min-width: 53em) {
+  #container {
+    /*margin: 15px auto;*/
+    width: 49em;
+    padding: 0 0 3em 3em;
+  }
+
+  #sidebar {
+    float: right;
+    border-left: 1px solid #f0f0f0;
+    padding-left: 2em;
+  }
 }
 
-/* Layout */
-#container { background: #fff; width: 48em; width: 48em; max-width: 90%; padding: 0 0 3em 3em; }
 
 #header { width: 40em; margin-bottom: 1em; padding-top: 1em; }
 #header h1 { font-size: 3em; border-bottom: 1px solid #000; padding-bottom: 0.5em; margin-bottom: 0; }
@@ -69,8 +71,7 @@ blockquote a:hover, .about a:hover { color: #777;  }
 #content .post_content { font-size: 0.8em; line-height: 1.5em; }
 #content .post_content img { max-width: 100%; margin-top: 1.5em; } /* Force body images to fill; do all browsers support max-width? TODO: resize imgs manually */
 
-#container { position: relative; } /* FIXME MOVEME ... */
-#sidebar { width: 12em; position: absolute; top: 200px; right: 20px; text-align: left; padding-left: 2em; border-left: 1px solid #f0f0f0; font-size: 0.9em; }
+#sidebar { width: 12em; text-align: left; }
 #sidebar h2, #sidebar h3 { font-family:'Georgia','DejaVu Serif','Times','Times New Roman', serif; margin-bottom: 0.1em; }
 #sidebar img { max-width: 10em; } /* was 80% */
 #sidebar img.avatar { border: 2px solid #555; margin: 0; padding: 0; }
@@ -126,15 +127,8 @@ div.clear_both { clear: both;  }
 #twitter .tweet_first a:first-child { margin-left: 55px; border-bottom-style: dotted;}
 #twitter .tweet_first .tweet_text a { margin: 0; }
 
-/*.flickr { margin: 1em 0 1em 0; padding: 0; min-height: 8em; overflow: hidden; }*/
-/*.flickr.mine { margin-top: 2em; }*/
 #sidebar .images img { border: 1px solid #666; }
 #sidebar .images a { border: 0; }
 
 #sidebar h3 a { border-bottom: 1px dotted #bbb; color: #aaa; }
 #sidebar h3.tumblr-link a { font-size: 92%; }
-
-#accounts, #friendroll { padding-right: 2em; }
-#accounts h3, #friendroll h3 { text-align: right; padding-top: 1em; }
-#accounts ul, #friendroll ul { list-style: none; padding: 0 0 0 0.6em; margin: 0; }
-#accounts li, #friendroll li { list-style: none; text-align: right; }
