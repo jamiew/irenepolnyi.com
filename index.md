@@ -50,3 +50,5 @@ Tactical & Executional skills
 * Consensus-building and alignment
 * Building and developing teams
 * Recruiting & coaching
+
+For my old "quantitative self-portrait" website, <a href="https://web.archive.org/web/20161012004317/http://www.irenepolnyi.com/">click here</a>.
