@@ -9,7 +9,7 @@ I want to take the skills built through work for blue chip clients and apply the
 
 I'm currently contracting with companies to help them understand new market opportunities, define their product offer, make it relevant to customers and become business-viable. If this is you, [email me](irenepolnyi@gmail.com) for my resume and availability.
 
-I occasionally think and write about how companies are [Selling the Future](https://medium.com/@ireneface/introducing-selling-the-future-4d7da8f655fa) on Medium.
+I occasionally write about how companies are [Selling the Future](https://medium.com/@ireneface/introducing-selling-the-future-4d7da8f655fa) on Medium.
 
 For full time work, I bring this skillset:
 
