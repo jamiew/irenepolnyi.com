@@ -11,7 +11,7 @@ I'm currently contracting with companies to help them understand new market oppo
 
 I occasionally write about how companies are [Selling the Future](https://medium.com/@ireneface/introducing-selling-the-future-4d7da8f655fa) on Medium.
 
-For my old "quantitative self-portrait" website, [click here](https://web.archive.org/web/20161012004317/http://www.irenepolnyi.com/).
+For my old "quantitative self-portrait" website, [click here](/quantitative-self-portrait).
 
 <hr />
 
