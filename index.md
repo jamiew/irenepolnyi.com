@@ -17,8 +17,6 @@ For my old "quantitative self-portrait" website, [click here](https://web.archiv
 
 For full time work, I bring this skillset:
 
-**My skills**
-
 <p class="header">Helping businesses succeed</p>
 
 * Brand positioning
