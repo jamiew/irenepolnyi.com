@@ -11,11 +11,15 @@ I'm currently contracting with companies to help them understand new market oppo
 
 I occasionally write about how companies are [Selling the Future](https://medium.com/@ireneface/introducing-selling-the-future-4d7da8f655fa) on Medium.
 
+For my old "quantitative self-portrait" website, [click here](https://web.archive.org/web/20161012004317/http://www.irenepolnyi.com/).
+
+<hr />
+
 For full time work, I bring this skillset:
 
 **My skills**
 
-Helping businesses succeed
+<p class="header">Helping businesses succeed</p>
 
 * Brand positioning
 * Brand portfolio & architecture
@@ -25,21 +29,21 @@ Helping businesses succeed
 * Product & service design
 * Product value proposition
 
-Reconnecting brands to what matters
+<p class="header">Reconnecting brands to what matters</p>
 
 * Customer segmentation & targeting
 * Customer research & insights
 * Customer needs identification
 * Brand purpose, vision & mission
 
-Managing internal change
+<p class="header">Managing internal change</p>
 
 * Strategy activation & road mapping
 * Cross functional workshop facilitation
 * Marketing competency-building
 * Employee branding & value propositions
 
-Tactical & Executional skills
+<p class="header">Tactical & Executional skills</p>
 
 * Project management
 * Agile concept prototyping
@@ -51,4 +55,4 @@ Tactical & Executional skills
 * Building and developing teams
 * Recruiting & coaching
 
-For my old "quantitative self-portrait" website, <a href="https://web.archive.org/web/20161012004317/http://www.irenepolnyi.com/">click here</a>.
+<hr />
