@@ -17,4 +17,8 @@ exclude:
 gems:
 - jekyll-default-layout
 kramdown:
-  smart_quotes: ["apos", "apos", "quot", "quot"]
+  smart_quotes:
+  - apos
+  - apos
+  - quot
+  - quot
